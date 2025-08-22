@@ -9,8 +9,6 @@ I am Elian Riu.
 
 
 ### About me :
-
-- 📘 Linkedin : https://www.linkedin.com/in/elianriu/
 - 🌐 Instagram : https://instagram.com/elianriu
 - 📌 Jakarta, Indonesia
 - 📎 Frontend Developer
