@@ -6,6 +6,7 @@ I am Elian Riu.
 - I'm Java Developer at [DBS Bank](https://dbs.com)
 - I'm from Batam, Indonesia (Currently living in Jakarta)
 - I love ⚛ React, and I build projects with ⚛ React.
+- I love making video about programing [My Youtube Channel](https://www.youtube.com/@elianriu)
 
 
 ### About me :
