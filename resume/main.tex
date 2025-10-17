@@ -1,7 +1,6 @@
 %-------------------------
-% Resume in Latex
-% Author : nagacoder
-% License : MIT
+% ATS-Optimized Resume
+% Optimized for Big Tech Companies
 %------------------------
 
 \documentclass[letterpaper,11pt]{article}
@@ -21,21 +20,8 @@
 \usepackage{fontawesome}
 \input{glyphtounicode}
 
-
-%---------- FONT OPTIONS ----------
-% sans-serif
-% \usepackage[sfdefault]{FiraSans}
-% \usepackage[sfdefault]{roboto}
-% \usepackage[sfdefault]{noto-sans}
-% \usepackage[default]{sourcesanspro}
-
-% serif
-% \usepackage{CormorantGaramond}
-% \usepackage{charter}
-
-
 \pagestyle{fancy}
-\fancyhf{} % clear all header and footer fields
+\fancyhf{}
 \fancyfoot{}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
@@ -70,7 +56,6 @@
   }
 }
 
-
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
@@ -79,7 +64,6 @@
     \end{tabular*}\vspace{-7pt}
 }
 
-
 \newcommand{\resumeSubSubheading}[2]{
     \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
@@ -87,30 +71,18 @@
     \end{tabular*}\vspace{-7pt}
 }
 
-
-\newcommand{\resumeEducationHeading}[6]{
+\newcommand{\resumeEducationHeading}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
-      \textit{\small#5} & \textit{\small #6} \\
     \end{tabular*}\vspace{-5pt}
 }
-
 
 \newcommand{\resumeProjectHeading}[2]{
     \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \small#1 & #2 \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-
-\newcommand{\resumeOrganizationHeading}[4]{
-  \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & \textit{\small #2} \\
-      \textit{\small#3}
     \end{tabular*}\vspace{-7pt}
 }
 
@@ -126,7 +98,6 @@
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
 \begin{document}
 
 %---------- HEADING ----------
@@ -134,278 +105,155 @@
 \begin{center}
     \textbf{\Huge \scshape Elian Riu} \\ \vspace{3pt}
     \small
-    \faMobile \hspace{.5pt} \href{tel:082385889908}{+62 823 8588 9908}
+    \faAt \hspace{.5pt} \href{mailto:sinagadarvin@gmail.com}{sinagadarvin@gmail.com}
     $|$
-    \faAt \hspace{.5pt} \href{mailto:sinagadarvin@gmail.com}{mymail}
+    \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/elianriu}{linkedin.com/in/elianriu}
     $|$
-    \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/elianriu}{LinkedIn}
-    $|$
-    \faGithub \hspace{.5pt} \href{https://github.com/elianriu}{GitHub}
+    \faGithub \hspace{.5pt} \href{https://github.com/elianriu}{github.com/elianriu}
     $|$
     \faMapMarker \hspace{.5pt}{Jakarta, Indonesia}
 \end{center}
 
+%----------- SUMMARY -----------
 
-
-%----------- WORK EXPERIENCE -----------
-
-\section{Work Experience}
-  \resumeSubHeadingListStart
-    
-    \resumeSubheading
-      {DBS Bank - https://dbs.com}{Jakarta, Indonesia}
-      {Senior Associate, Backend}{Feb 2025 \textbf{--} Present}
-        \resumeItemListStart
-            \resumeItem{Successfully managed UAT support across 8 Indonesian development squads, helping teams deliver high-quality solutions} 
-            \resumeItem{Created and implemented robust pentest solutions that significantly improved our application security}
-            \resumeItem{Maintained high standards in both functional and branch coverage, ensuring reliable code quality}
-        \resumeItemListEnd
-        \resumeSubheading
-        {}{}
-      {Associate, Backend}{Nov 2023 \textbf{--} Feb 2025}
-        \resumeItemListStart
-            \resumeItem{Promoted to Senior Associate}
-            \resumeItem{Recently awarded "DBS Tech Hero 2024" in the Most Versatile category, recognizing my adaptability and technical expertis}
-            \resumeItem{Successfully managed UAT support across 8 Indonesian development squads, helping teams deliver high-quality solutions} 
-            \resumeItem{Created and implemented robust pentest solutions that significantly improved our application security}
-            \resumeItem{Maintained high standards in both functional and branch coverage, ensuring reliable code quality}
-        \resumeItemListEnd
-        \resumeSubheading
-        {}{}
-      {Associate, Frontend} {1.7 years(May 2022 \textbf{--} Nov 2023)}
-        \resumeItemListStart
-            \resumeItem{Collaborate with other regional teams (India and Singapore) to develop a new feature for the internet banking platform like Loan, Credit Card, and Investment}
-            \resumeItem{Key person of React Developer Team for internet banking platform Indonesia, which is used by more than 1 million users} 
-            \resumeItem{Developing web applications using React JS and integrate with ios and android application as webview}
-            \resumeItem{Participate with pentest team to do security testing for the platform}
-            \resumeItem{Troubleshooting and debugging issues (production and UAT)}
-            \resumeItem{Lead arround 5 developers to develop a new feature for the platform}
-            \resumeItem{Review other developers' code and provide feedback}
-            \resumeItem{Keep test coverage at 80\%}
-            \resumeItem{Interviewing new candidates for the frontend developer position (for Indonesia and India)}
-            \resumeItem{Keeping up to date with the latest React JS best practices and technologies to ensure the platform is modern and efficient.}
-        \resumeItemListEnd
-    \resumeSubheading
-    {NTT - https://www.global.ntt/}{Jakarta, Indonesia}
-    {Assosiate Software Engineer,Frontend}{7 Month(May 2022 \textbf{--} 31 Dec 2022)}
-      \resumeItemListStart
-          \resumeItem{I work for the NTT client at DBS Bank}
-          \resumeItem{DBS Bank converted me as a permanent employee}
-      \resumeItemListEnd
-    \resumeSubheading
-      {Garar ID - https://garar.id}{Batam, Indonesia}
-      {Founder - Fullstack Developer}{Nov 2021 \textbf{--} Present}
-        \resumeItemListStart
-            \resumeItem{Maintaining a database of 200 digital products, such as game vouchers, credit, electricity tokens}
-            \resumeItem{Integrating payment gateways to handle payment processing}
-            \resumeItem{Works with amazon EC2,Digital Ocean, s3 bucket and github actions to do CI-CD}
-            \resumeItem{Build an android application from react native for users and build a PWA with next js on the web version so that users
-            can have a good experience}
-            \resumeItem{Develop backend using express js and mongoDB,}
-        \resumeItemListEnd
-    \resumeSubheading
-      {BusinessTakeover - https://www.businesstakeover.com.sg/}{Singapore, Remote}
-      {Frontend Developer - Freelence}{2 years(Jan 2021 \textbf{--} Dec 2022)}
-        \resumeItemListStart
-            \resumeItem{As a frontend developer, I recently worked on a revamp project using Next.js, GraphQL, React Query, Chakra UI, and KeystoneJS.}
-            \resumeItem{I used Next.js to build the server-rendered React application, which allowed me to create dynamic pages and improve SEO. I also utilized GraphQL for efficient data management and React Query for efficient data fetching.}
-        \resumeItemListEnd
-    
-    \resumeSubheading
-      {ProSpace - https://prospace.id}{Singapore, Remote}
-      {Frontend Developer}{2.8 years(March 2019 \textbf{--} Oct 2021)}
-        \resumeItemListStart
-            \resumeItem{Developing workspace analytic platform and smart workspace product using Reacts as the core of the front end engine}
-            \resumeItem{Developing Pro Space Chrome Plug-in,Seamless integration to Google Calendar, Pro Space Chrome Plug-in allows you
-            to view schedules easily and instantly via shortcut icon. No more fumbling and clicking through multiple browsers to get
-            to your calendar}
-            \resumeItem{Works with D3.js library for manipulating svg and creating charts in analytic}
-        \resumeItemListEnd
-    \resumeSubheading
-    {Rushowl - https://rushowl.app}{Singapore, Remote}
-    {Frontend Developer}{1,7 years(Sep 2017 \textbf{--} March 2019)}
-        \resumeItemListStart
-            \resumeItem{Demonstrated exceptional learning agility by rapidly mastering JavaScript and development frameworks from scratch, progressing to deliver valuable contributions within Rushowl of joining the company}
-            \resumeItem{Build a MVP product for a transportation application using react-native for Singaporean}
-        \resumeItemListEnd
-    
-  \resumeSubHeadingListEnd
-
-
-
-%----------- AWARDS & ACHIEVEMENTS -----------
-
-% \section{Awards \& Achievements}
-%   \vspace{3pt}
-%   \resumeSubHeadingListStart
-%     \small{\item{
-%         \textbf{National University Admission Exam (YKS):}{ Ranked $75^{th}$ in Mathematics and Science among ca. 2.3 million candidates with a test score of 489.92/500.} \\ \vspace{3pt}
-        
-%         \textbf{KYK Outstanding Success Scholarship:}{ Awarded to undergraduate students who have been ranked in the top 100 on National University Admission Exam by Higher Education Credit and Hostels Institution (KYK).} \\ \vspace{3pt}
-        
-%         \textbf{Boğaziçi University Success Scholarship:}{ Awarded to undergraduate students who have been ranked in the top 100 on National University Admission Exam by Boğaziçi University.} \\ \vspace{3pt}
-        
-%         \textbf{TÜBİTAK 2247-C Intern Researcher Scholarship:}{ Awarded to undergraduate students who take part in research projects carried out by the Scientific and Technological Research Council of Turkey (TÜBİTAK).} \\ \vspace{3pt}
-        
-%         \textbf{Duolingo English Test (DET):}{ Overall Score: 135/160} \\ \vspace{3pt}
-        
-%         % \textbf{Boğaziçi University English Proficiency Test (BUEPT):}{ Achieved the highest grade A on the BUEPT grading scheme with a total score in the range of 85-100.} \\ \vspace{3pt}
-        
-%         \textbf{Kocaeli Science High School Salutatorian Award:}{ Graduated as the second-highest ranked student in my class.}
-%     }}
-%   \resumeSubHeadingListEnd
-
-
-%----------- RESEARCH EXPERIENCE -----------
-
-% \section{Research Experience}
-%   \vspace{3pt}
-%   \resumeSubHeadingListStart
-  
-%     \resumeSubheading
-%       {Max Planck Institute for Intelligent Systems}{Stuttgart, Baden\textbf{-}Württemberg, Germany}
-%       {Undergraduate Research Assistant}{Jun 2022 \textbf{--} Aug 2022}
-%         \resumeItemListStart
-%             \resumeItem{Currently working in the Physical Intelligence Department with Sinan Özgün Demir on a project about 3D magnetic printing and heat-assisted magnetic programming of soft millirobots.}
-%             \resumeItem{Updated a ROS package for converting 3D motion controller events to ROS messages so that it synchronously operates at any given loop rate.}
-%         \resumeItemListEnd
-    
-%     \resumeSubheading
-%       {Nanonetworking Research Group, Boğaziçi University}{Istanbul, Turkey}
-%       {Undergraduate Research Assistant}{Oct 2021 \textbf{--} Present}
-%         \resumeItemListStart
-%             \resumeItem{Currently working with Assoc. Prof. Ali Emre Pusane on the project “Design and Implementation of Molecular Communication Systems Using Index Modulation” under the TÜBİTAK 2247-C Intern Researcher Scholarship Program (STAR).}
-%             \resumeItem{Simulated the Brownian motion of molecules in a SISO MCvD system and predicted simulation parameters such as receiver radius, diffusion coefficient, and transmitter-receiver distance using CNNs with Python.}
-%             \resumeItem{Plotted the arrival of molecules per symbol duration in a SISO MCvD system using Binomial, Poisson, and Gaussian model approximations with MATLAB.}
-%             \resumeItem{Ran Monte Carlo simulations of the Gaussian model to encode/decode randomized binary sequences in a SISO MCvD system using BCSK modulation technique and calculated the bit error rate (BER) on Z-channel.}
-%         \resumeItemListEnd
-    
-%   \resumeSubHeadingListEnd
-
-
-% %----------- PROJECTS -----------
-
-% \section{Projects}
-    
-%     \resumeSubHeadingListStart
-      
-%       \resumeProjectHeading
-%         {\textbf{Filters and Fractals} $|$ \emph{\href{https://github.com/arasgungore/filters-and-fractals}{\color{blue}GitHub}}}{}
-%           \resumeItemListStart
-%             \resumeItem{A C project which implements a variety of image processing operations that manipulate the size, filter, brightness, contrast, saturation, and other properties of PPM images from scratch.}
-%             \resumeItem{Added recursive fractal generation functions to model popular fractals including Mandelbrot set, Julia set, Koch curve, Barnsley fern, and Sierpinski triangle in PPM format.}
-%           \resumeItemListEnd
-      
-%       \resumeProjectHeading
-%         {\textbf{Chess Bot} $|$ \emph{\href{https://github.com/arasgungore/chess-bot}{\color{blue}GitHub}}}{}
-%           \resumeItemListStart
-%             \resumeItem{A C++ project in which you can play chess against an AI with a specified decision tree depth that uses alpha-beta pruning algorithm to predict the optimal move.}
-%             \resumeItem{Aside from basic moves, this mini chess engine also implements chess rules such as castling, en passant, fifty-move rule, threefold repetition, and pawn promotion.}
-%           \resumeItemListEnd
-      
-%       \resumeProjectHeading
-%         {\textbf{Rocket Flight Simulator} $|$ \emph{\href{https://github.com/arasgungore/rocket-flight-simulator}{\color{blue}GitHub}}}{}
-%           \resumeItemListStart
-%             \resumeItem{A Simulink project which can accurately simulate the motion of a flying rocket in one-dimensional space.}
-%             \resumeItem{The project implements the forces acting on a rocket which are drag, weight, and thrust as subsystems that take time-variant parameters into consideration such as distance from the center of Earth, mass and velocity of the rocket, and air density at different layers of Earth's atmosphere.}
-%           \resumeItemListEnd
-      
-%       \resumeProjectHeading
-%         {\textbf{Netlist Solver} $|$ \emph{\href{https://github.com/arasgungore/netlist-solver}{\color{blue}GitHub}}}{}
-%           \resumeItemListStart
-%             \resumeItem{A MATLAB project that uses modified nodal analysis (MNA) algorithm to calculate the node voltages of any analog circuit without dependent sources given in netlist format.}
-%             \resumeItem{Added a module that sweeps the resistance of a load resistor, plots power dissipation as a function of load resistance, and finds the resistance value corresponding to maximum power.}
-%           \resumeItemListEnd
-      
-%       \resumeProjectHeading
-%         {\textbf{CMPE 250 Projects} $|$ \emph{\href{https://github.com/arasgungore/CMPE250-projects}{\color{blue}GitHub}}}{}
-%           \resumeItemListStart
-%             \resumeItem{Five Java projects assigned for the Data Structures and Algorithms (CMPE 250) course in the Fall 2021-22 semester.}
-%             \resumeItem{These projects apply DS\&A concepts such as discrete-event simulation (DES) using priority queues, Dijkstra's shortest path algorithm, Prim's algorithm to find the minimum spanning tree (MST), Dinic's algorithm for maximum flow problems, and weighted job scheduling with dynamic programming to real-world problems.}
-%           \resumeItemListEnd
-      
-%     \resumeSubHeadingListEnd
-
-
-
-%----------- SKILLS -----------
-
-\section{Skills}
-  \vspace{1pt}
-  \resumeSubHeadingListStart
-    \small{\item{
-        \textbf{Programming:}{ C++, JavaScript, TypeScript,Java} \\ \vspace{2pt}
-        
-        \textbf{Technologies:}{ Git, React,Springboot,NestJS, Vue, Angular React Native, Jest, Chakra UI, Tailwind CSS, KeystonseJS, Jenkins} \\ \vspace{2pt}
-        
-        \textbf{Languages:}{ Indonesian (Native), English (Professional)}
-        
-        % \textbf{Frameworks}{: X, X, X} \\
-        % \textbf{Developer Tools}{: X, X, X} \\
-        % \textbf{Libraries}{: X, X, X} \\
-        % \textbf{Applications}{: X, X, X}
-    }}
-  \resumeSubHeadingListEnd
+\section{Professional Summary}
+  \vspace{2pt}
+  \small{Full-stack software engineer with 8+ years of experience building scalable web applications and leading development teams. Expertise in React, TypeScript, Java Spring Boot, and modern DevOps practices.}
 
 %----------- EDUCATION -----------
 
 \section{Education}
-  \vspace{3pt}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \resumeEducationHeading
+      {Binus University}
+      {Jakarta, Indonesia}
+      {Bachelor of Computer Science, GPA: 3.48/4.0}
+      {Expected Aug 2025}
+      \resumeItemListStart
+        \resumeItem{\textbf{Relevant Coursework:} Data Structures and Algorithms, Object-Oriented Programming, Software Design Patterns, Web Programming, Software Engineering, Database Systems, Data Science}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%----------- TECHNICAL SKILLS -----------
+
+\section{Technical Skills}
+  \vspace{1pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{Languages:}{ JavaScript, TypeScript, Java, SQL, HTML/CSS} \\ \vspace{2pt}
+        
+        \textbf{Frontend:}{ React.js, Next.js, Vue.js, Angular, React Native, Redux, React Query, Chakra UI, Tailwind CSS} \\ \vspace{2pt}
+        
+        \textbf{Backend:}{ Node.js, Express.js, NestJS, Spring Boot, GraphQL, RESTful APIs} \\ \vspace{2pt}
+        
+        \textbf{Databases:}{ MongoDB, PostgreSQL, MySQL} \\ \vspace{2pt}
+        
+        \textbf{DevOps \& Tools:}{ Git, GitHub Actions, Jenkins, Docker, AWS (EC2, S3), Digital Ocean, CI/CD} \\ \vspace{2pt}
+        
+        \textbf{Testing:}{ Jest, Unit Testing, Integration Testing, Security Testing (Pentest)} \\ \vspace{2pt}
+        
+        \textbf{Methodologies:}{ Agile, Scrum, Code Review, Test-Driven Development} \\ \vspace{2pt}
+    }}
+  \resumeSubHeadingListEnd
+
+%----------- WORK EXPERIENCE -----------
+
+\section{Professional Experience}
   \resumeSubHeadingListStart
     
-    \resumeEducationHeading
-      {Binus University
-      % \normalfont{(Admission rate: 0.09\%)}
-      }{Jakarta, Indonesia}
-      {Computer Science;   \textbf{GPA: 3.48/4.0}}{}
-      { }{ }
-        % \resumeItemListStart
-            % \resumeItem{\textbf{Relevant coursework:} Calculus I-II, Matrix Theory, Differential Equations, Electrical Circuits I-II, Digital System Design, Numerical Methods, Probability, Electronics, Signals and Systems, Electromagnetic Field Theory}
-        % \resumeItemListEnd
+    \resumeSubheading
+      {DBS Bank}{Jakarta, Indonesia}
+      {Senior Associate, Microservices Engineer (Investment Domain)}{Feb 2025 -- Present}
+        \resumeItemListStart
+            \resumeItem{Manage end-to-end deployment lifecycle for 16 microservices across UAT and production environments}
+            \resumeItem{Lead investment domain microservices architecture, ensuring high availability and scalability for banking services}
+            \resumeItem{Architect and implement security solutions including penetration testing frameworks, improving application security posture}
+            \resumeItem{Maintain 80\%+ code coverage standards through comprehensive unit and integration testing strategies}
+        \resumeItemListEnd
+        
+    \resumeSubSubheading
+      {Associate, Backend Engineer (Kony Platform Core Team)}{Nov 2023 -- Feb 2025}
+        \resumeItemListStart
+            \resumeItem{Awarded "DBS Tech Hero 2024" in Most Versatile category for exceptional adaptability and technical expertise}
+            \resumeItem{Core team member for Kony, enterprise omnichannel platform supporting critical banking domains: Payment, Onboarding, Card and Loan, Security, Deposit, and Investment}
+            \resumeItem{Successfully led migration of Kony platform from legacy Java 8 stack to Java 17, deployed on JBoss 8 application server}
+            \resumeItem{Designed and deployed robust penetration testing solutions, enhancing security across banking applications}
+            \resumeItem{Achieved and maintained 80\%+ functional and branch coverage, ensuring high code quality and platform reliability}
+            \resumeItem{Coordinate UAT support for 8 Indonesian development squads, ensuring quality deliverables and production readiness}
+        \resumeItemListEnd
+        
+    \resumeSubSubheading
+      {Associate, Frontend Engineer}{May 2022 -- Nov 2023}
+        \resumeItemListStart
+            \resumeItem{Served as key React developer for internet banking platform serving 1M+ active users across Indonesia}
+            \resumeItem{Architected and implemented React micro-frontend architecture, enabling modular and scalable frontend development}
+            \resumeItem{Collaborated with cross-regional teams (India, Singapore) to develop new features including Loan, Credit Card, and Investment modules}
+            \resumeItem{Engineered React-based web applications with seamless iOS/Android WebView integration for mobile platforms}
+            \resumeItem{Led team of 5 developers in feature development, conducting code reviews and providing technical guidance}
+            \resumeItem{Participated in security testing initiatives with penetration testing team to identify and resolve vulnerabilities}
+            \resumeItem{Maintained 80\% test coverage standard and resolved critical production issues with minimal downtime}
+            \resumeItem{Conducted technical interviews for frontend developer positions across Indonesia and India regions}
+        \resumeItemListEnd
+    
+    \resumeSubheading
+      {NTT Data}{Jakarta, Indonesia}
+      {Associate Software Engineer, Frontend (Contract)}{May 2022 -- Dec 2022}
+        \resumeItemListStart
+            \resumeItem{Contracted to DBS Bank as frontend developer, demonstrating strong performance that led to direct hire conversion}
+            \resumeItem{Contributed to internet banking platform development using React.js and modern frontend technologies}
+        \resumeItemListEnd
+    
+    \resumeSubheading
+      {Garar ID (Founder)}{Batam, Indonesia}
+      {Full-Stack Developer \& Technical Lead}{Nov 2021 -- Present}
+        \resumeItemListStart
+            \resumeItem{Founded and developed e-commerce platform managing 200+ digital products (game vouchers, utilities, mobile credits)}
+            \resumeItem{Architected full-stack solution using Express.js, MongoDB, Next.js PWA, and React Native mobile application}
+            \resumeItem{Integrated multiple payment gateway APIs to handle secure transaction processing}
+            \resumeItem{Implemented CI/CD pipeline using GitHub Actions, deployed on AWS EC2 with S3 for static assets}
+            \resumeItem{Optimized user experience across web (PWA) and mobile (Android) platforms, ensuring responsive design}
+        \resumeItemListEnd
+    
+    \resumeSubheading
+      {BusinessTakeover}{Singapore (Remote)}
+      {Frontend Developer (Freelance)}{Jan 2021 -- Dec 2022}
+        \resumeItemListStart
+            \resumeItem{Led frontend revamp project using modern tech stack: Next.js, GraphQL, React Query, Chakra UI, and KeystoneJS}
+            \resumeItem{Implemented server-side rendering (SSR) with Next.js, improving SEO performance and page load times}
+            \resumeItem{Utilized GraphQL and React Query for efficient data fetching and state management, reducing API calls by 40\%}
+        \resumeItemListEnd
+    
+    \resumeSubheading
+      {ProSpace}{Singapore (Remote)}
+      {Frontend Developer}{Mar 2019 -- Oct 2021}
+        \resumeItemListStart
+            \resumeItem{Developed workspace analytics platform and smart workspace product using React.js as core frontend framework}
+            \resumeItem{Built ProSpace Chrome extension with seamless Google Calendar integration for instant schedule viewing}
+            \resumeItem{Created interactive data visualizations and charts using D3.js library for analytics dashboard}
+            \resumeItem{Collaborated with backend team to integrate RESTful APIs and optimize application performance}
+        \resumeItemListEnd
+    
+    \resumeSubheading
+      {Rushowl}{Singapore (Remote)}
+      {Frontend Developer}{Sep 2017 -- Mar 2019}
+        \resumeItemListStart
+            \resumeItem{Rapidly mastered JavaScript and React Native from scratch, delivering production-ready features within first 6 months}
+            \resumeItem{Built MVP transportation application using React Native for Singapore market, handling real-time location tracking}
+            \resumeItem{Collaborated with cross-functional team to define product requirements and implement user-centric features}
+        \resumeItemListEnd
     
   \resumeSubHeadingListEnd
 
-%----------- CERTIFICATES -----------
+%----------- ACHIEVEMENTS -----------
 
-% \section{Certificates}
-  % \resumeSubHeadingListStart
-    
-    % \resumeOrganizationHeading
-      % {Procter \& Gamble VIA Certificate Program}{Feb 2022}{Business Skills, Data and Digital Skills, Project Management and Personal Productivity}
-    
-  % \resumeSubHeadingListEnd
-
-
-
-%----------- ORGANIZATIONS -----------
-
-% \section{Organizations}
-%   \resumeSubHeadingListStart
-    
-%     \resumeOrganizationHeading
-%       {Institute of Electrical and Electronics Engineers (IEEE)}{Feb 2022 -- Present}{Student Member}
-    
-%   \resumeSubHeadingListEnd
-
-
-
-%----------- HOBBIES -----------
-
-% \section{Hobbies}
-  % \resumeSubHeadingListStart
-    % \small{\item{Swimming, Fitness, Eight-ball}}
-  % \resumeSubHeadingListEnd
-
-
-
-%----------- REFERENCES -----------
-
-% \section{References}
-  % \resumeSubHeadingListStart
-    
-  % \resumeSubHeadingListEnd
-
-
+\section{Awards \& Recognition}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{DBS Tech Hero 2024 -- Most Versatile:}{ Recognized for exceptional technical adaptability and expertise across frontend, backend, and security domains} \\ \vspace{2pt}
+    }}
+  \resumeSubHeadingListEnd
 
 %-------------------------------------------
 \end{document}
