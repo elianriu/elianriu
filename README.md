@@ -3,7 +3,7 @@
 ## Hi There, i am Elian <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="20px">
 
 I am Elian Riu. 
-- I'm Java Developer at [Banking Company]()
+- I'm Java Developer at [Banking Company](https://github.com/elianriu)
 - I'm from Batam, Indonesia (Currently living in Jakarta)
 - I love ⚛ React, and I build projects with ⚛ React.
 - I love making video about programing [My Youtube Channel](https://www.youtube.com/@elianriu)
