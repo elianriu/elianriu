@@ -1,9 +1,9 @@
 
 
-## Hi There, i am Vin <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="20px">
+## Hi There, i am Elian <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="20px">
 
 I am Elian Riu. 
-- I'm Java Developer at [DBS Bank](https://dbs.com)
+- I'm Java Developer at [Banking Company]()
 - I'm from Batam, Indonesia (Currently living in Jakarta)
 - I love ⚛ React, and I build projects with ⚛ React.
 - I love making video about programing [My Youtube Channel](https://www.youtube.com/@elianriu)
@@ -12,8 +12,7 @@ I am Elian Riu.
 ### About me :
 - 🌐 Instagram : https://instagram.com/elianriu
 - 📌 Jakarta, Indonesia
-- 📎 Frontend Developer
-- 📎 Backend Developer
+- 📎 Fullstack Developer
 
 [![elianriu wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=elianriu)](https://github.com/anuraghazra/github-readme-stats)
 
